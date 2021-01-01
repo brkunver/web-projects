@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+</head>
+
+<body>
+    <h1>4. Functions in Java</h1>
+    <table>
+        <tr>
+            <td>
+                <a href="https://www.freepik.com">
+                    <img src="images/gear.JPG" alt="freepik.com" width="150">
+                </a>
+            </td>
+            <td>
+                With Functions, we can execute codes over and over again <br>
+                so , we don't have to write same code again
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <p>
+        As you know, firs we need a java file, a class and main method <br>
+        There is an example class and main method <br>
+        We are going to write our function in the class, but outside the main method
+        <br>
+        <hr>
+        <strong>
+            public class functions{ <br>
+            public static void main(String[] args) { <br>
+            <br>
+            } <br>
+            } <br> <br>
+            <hr>
+        </strong>
+        To write a function, first we need to write function's access modifier <br>
+        This keyword gives function to accesibility from other classes <br>
+        In this lection, We are not going to learn more about access modifiers <br>
+        <br>
+        Then, We write "public", this means every other class can access our function <br>
+        After this, we need to write second keyword, the return type <br>
+        Functions executes some codes and if you want, they can return values <br>
+        For example : F(x) = x+2 <br>
+        If we give this function to 5, it will return 7 <br> <br>
+    </p>
+    <hr>
+    <h3>Some Return Types</h3>
+    <ul>
+        <li> Void : Function executes code, and return nothing</li>
+        <li> Variables : Like integer,float and String, functions can return a variable</li>
+        <li> Objects : We did not learn this but, functions can return more complex things like objects</li>
+    </ul>
+    <p>
+        Until now, we have learned access keyword and return type keyword <br>
+        We can write "public void" , But there is one more keyword <br>
+        Now the last keyword we should write is name of the functions <br>
+        <br>
+        Example function = <strong> public void print</strong> <br>
+        <br>
+        And last, we need to put two parentheses and curly braces <br>
+    <h4>Our Code Should Look Like This</h4>
+    <strong>public void print(){ <br> <br>
+        } <br>
+    </strong>
+    <br>
+    We can write our codes inside this curly braces <br> <br>
+    <strong>public void print(){ <br>
+        int x = 5; <br>
+        System.out.println(x);
+        <br>
+        } <br>
+    </strong>
+    </p>
+    <hr>
+    <h3>How to call a function</h3>
+    <p>
+        To call a function, you should write it's name and put "()" <br>
+        It will do it's job <br> <br>
+        Note : If you write your function in your main class it should have static keyword <br>
+        "public static void print()" <br>
+        Static is also a keyword, it means you can call this function in this class, without creating a object <br>
+        We did not learn classes and object yet <br>
+    </p>
+    <h3>Example function in java</h3>
+    <img src="images/function.JPG" alt="function-java" width="500">
+    <h4>Output</h4>
+    <img src="images/funcOutput.JPG" alt="function-java-output" width="500">
+    <hr>
+    <h3>Returning value</h3>
+    <p>
+        We have just learned void type functions, that returns nothing <br>
+        Now we are gonna look at functions with return type <br>
+        <br>
+        First, we need to write a return type instead of "void" <br>
+        Example function : public static <strong>int</strong> add(){}
+        <br>
+        <h4>How to return</h4>
+        To return a value from function, in function we need to use <b>return</b> keyword <br>
+        <br>
+        After return keyword, we can write what we want to return <br>
+        You can use the returned value, and assign this value
+        <h4>Example function with return</h4>
+        <img src="images/return.JPG" alt="return-java" width="500"> <br>
+        <h4>Output</h4>
+        <img src="images/returned-value.JPG" alt="return-java" width="500">
+    </p>
+    <h3>How to enter variable to function</h3>
+    <p>
+        You can give variable to function <br>
+        Function can use this variable and make it's job <br>
+        <br>
+        As you remember, when we write a function, we add parentheses "()" <br>
+        In this parentheses, we can declare a variable like "int number, String text" <br>
+        And when you call a function, you must enter these variables to function <br>
+    </p>
+    <h3>Example Function</h3>
+    <img src="images/func-var.JPG" alt="java-function" width="500"> <br>
+    <h4>Output</h4>
+    <img src="images/func-var-output.JPG" alt="java-function" width="500">
+    <hr>
+    <h5> <a href="index.html">Home Page</a></h5>
+    <h5><a href="print.html">Previous Lesson -> Printing</a></h5>
+    
+    <h6>Photo from www.freepik.com</h6>
+    <h6>Burakhan Ünver</h6>
+</body>
+
+</html>
