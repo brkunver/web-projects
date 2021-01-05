@@ -1,0 +1,49 @@
+body{
+    font-family: 'PT Serif', serif;
+    background-color: #222831;
+    text-align: center;
+    margin: 0;
+}
+
+div{
+    display: inline-block;
+}
+
+h1{
+    font-family: 'Indie Flower', cursive;
+    color: #00adb5;
+    font-size: 80px;
+}
+h2{
+    font-family: 'Architects Daughter', cursive;
+    color: #00adb5;
+    font-size: 40px;
+}
+h3{
+    font-family: 'Architects Daughter', cursive;
+    color: #008891;
+}
+p{
+    font-family: 'PT Serif', serif;
+    color: #eeeeee;
+    font-size: large;
+}
+
+#top-container{
+    margin: auto;
+    position: relative;
+}
+
+#dog-img{
+    margin: 50px auto 10px;
+    
+}
+hr{
+    border-style: inset;
+    border-color: burlywood;
+    border-width: medium;
+}
+
+a{
+    color: #eeeeee;
+}
