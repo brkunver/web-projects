@@ -4,6 +4,8 @@
 
 ## Content
 
+**Web Developer Site** : An example website for a web developer. Built with basic html and bootsrap 5 [Click for preview](https://burakhan29.github.io/web-projects/wDevApp/ "Click for preview")
+
 **Vet Clinic site** : A simple one page web site about vet clinic. Built with basic html and css [Click for preview](https://burakhan29.github.io/web-projects/vet-clinic/ "Click for preview")
 
 **Basic Personel site** : A personel site that built with basic html and css [Click for preview](https://burakhan29.github.io/web-projects/Personel-site2/ "Click for preview")
