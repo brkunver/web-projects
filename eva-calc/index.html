@@ -1,0 +1,219 @@
+<!doctype html>
+<!-- Burakhan Ünver 21.01.2021 -->
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Eva-calc</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="sources/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#section-one">Eva-Calc</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navb"
+                aria-controls="navb" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navb">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#section-two">Calculator</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#section-three">Quadratic</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#section-four">Hypotenuse</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#section-five">Sphere</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#footer">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="section-one" class="container">
+        <div class="row">
+            <div class="col-lg-6 col-title">
+                <h1 class="eva-calc-title">Welcome to Eva-Calc</h1>
+                <p>
+                    📐 You can use simple use calculator
+                </p>
+                <p>
+                    📐 You can solve quadratic equation
+                </p>
+                <p>
+                    📐 You can calculate hypotenuse of triangle
+                </p>
+                <p>
+                    📐 You can calculate area of sphere
+                </p>
+
+            </div>
+            <div class="col-lg-6 col-about">
+                <h1 class="about-title">About Eva-calc</h1>
+                <img class="img1" src="sources/math1.png" alt="math" srcset="">
+                <p>Eva-calc is a website that you can calculate simple mathematical things. Eva-calc is made for
+                    educational purposes not financal purposes</p>
+            </div>
+    </section>
+
+    <section id="section-two" class="container">
+        <h1 class="title-calculator">
+            Simple Calculator
+            <img class="calc-img" src="sources/calculator.png" alt="calculator">
+        </h1>
+        <div class="row">
+            <div class="col-lg-6">
+                <div id="calc-eva-alert" class="alert alert-box solve-box" role="alert">
+                    Enter a number and calculate !
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" >Num 1</span>
+                    <input id="calc-num-1" type="number" class="form-control" placeholder="Enter a number" aria-label="Number"
+                        aria-describedby="basic-addon1">
+                </div>
+                <div class="input-group mb-3">
+                    <span class="input-group-text">Num 2</span>
+                    <input  id="calc-num-2" type="number" class="form-control" placeholder="Enter a number" aria-label="Number"
+                        aria-describedby="basic-addon2">
+                </div>
+
+            </div>
+
+            <div class="col-lg-6 col-calculate">
+                <div class="row btn-calculator"> <button id="sum-button" type="button" class="btn btn-primary">Sum</button>
+                </div>
+                <div class="row btn-calculator"> <button id="sub-button" type="button" class="btn btn-primary">Subtract</button>
+                </div>
+                <div class="row btn-calculator"> <button id="div-button" type="button" class="btn btn-primary">Divide</button>
+                </div>
+                <div class="row btn-calculator"> <button id="m-button" type="button" class="btn btn-primary">Multiply</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="section-three" class="container">
+        <h1 class="eq-title">
+            Quadratic Equation Solver
+            <img class="img-2" src="sources/math2.png" alt="">
+        </h1>
+        <p>In algebra, a quadratic equation is any equation that can be rearranged in standard form as
+            ax<sup>2</sup>+bx+c=0
+            where x represents an unknown, and a, b, and c represent known numbers, where a ≠ 0. (From wikipedia)</p>
+        <div id="second-alert" class="alert alert-box solve-box" role="alert">
+            Enter A,B and C values
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="a-value">A :</span>
+            <input id="q-a" type="number" class="form-control" placeholder="Enter a number" aria-label="Number"
+                aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="b-value">B :</span>
+            <input id="q-b"  type="number" class="form-control" placeholder="Enter a number" aria-label="Number"
+                aria-describedby="basic-addon1">
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="c-value">C :</span>
+            <input id="q-c"  type="number" class="form-control" placeholder="Enter a number" aria-label="Number"
+                aria-describedby="basic-addon1">
+        </div>
+        <div  class="row btn-calculator q-button-class">
+            <button id="q-button" type="button" class="btn btn-primary">Find Values</button>
+        </div>
+    </section>
+
+
+    <section id="section-four" class="container">
+        <h1 class="hp-title">
+            Pythagorean theorem
+            <img class="img-2" src="sources/triangle.png" alt="triangle">
+        </h1>
+        <p>In geometry, a hypotenuse is the longest side of a right-angled triangle</p>
+        <div id="hypo-alert" class="alert alert-box solve-box" role="alert">
+            Enter the value of two sides of triangle
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="t1-value">Side one :</span>
+            <input id="hypo-1" type="number" class="form-control" placeholder="Enter a number" aria-label="Number"
+                aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="t2-value">Side Two :</span>
+            <input id="hypo-2"  type="number" class="form-control" placeholder="Enter a number" aria-label="Number"
+                aria-describedby="basic-addon1">
+        </div>
+
+        </div>
+        <div class="row btn-calculator q-button-class">
+            <button id="h-button" type="button" class="btn btn-primary">Find hypotenuse</button>
+        </div>
+    </section>
+
+
+    <section id="section-five" class="container">
+        <h1 class="hp-title">
+            Find Area of sphere
+            <img class="img-2" src="sources/sphere.png" alt="sphere">
+        </h1>
+        <p>The surface area of a sphere of radius r is:
+
+            A= 4.𝛑.r<sup>2</sup></p>
+        <div id="sp-alert" class="alert alert-box solve-box" role="alert">
+            Enter the radius of sphere
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="t1-value">Radius :</span>
+            <input id="rad" type="number" class="form-control" placeholder="Enter a number" aria-label="Number"
+                aria-describedby="basic-addon1">
+        </div>
+        <div class="row btn-calculator q-button-class">
+            <button id="sp-button" type="button" class="btn btn-primary">Find area</button>
+        </div>
+    </section>
+
+    <hr>
+
+
+    <footer id="footer" class="container">
+        <p>This website is for educational purposes only</p>
+        <p>Eva-calc is made by Burakhan Ünver</p>
+        <p>You can visit my <a href="https://github.com/burakhan29">Github Page</a></p>
+        <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a
+                href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+
+
+
+</body>
+
+</html>
