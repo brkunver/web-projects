@@ -4,6 +4,8 @@
 
 ## Content
 
+**Eva-Calc** : An example website for math calculations. Built with jQuery and bootsrap 5 [Click for preview](https://burakhan29.github.io/web-projects/eva-calc/ "Click for preview")
+
 **Web Developer Site** : An example website for a web developer. Built with basic html and bootsrap 5 [Click for preview](https://burakhan29.github.io/web-projects/wDevApp/ "Click for preview")
 
 **Vet Clinic site** : A simple one page web site about vet clinic. Built with basic html and css [Click for preview](https://burakhan29.github.io/web-projects/vet-clinic/ "Click for preview")
