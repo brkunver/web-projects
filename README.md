@@ -4,14 +4,14 @@
 
 ## Content
 
-### Eva-Calc 
-An example website for math calculations. Built with jQuery and bootsrap 5 [Click for preview](https://burakhan29.github.io/web-projects/eva-calc/ "Click for preview")
+### [Eva-Calc](https://github.com/brkunver/evaCalc) 
+An example website for math calculations. Built with jQuery and bootsrap 5 [Click for preview](https://brkunver.github.io/evaCalc/)
 
-### Web Developer Site
-An example website for a web developer. Built with basic html and bootsrap 5 [Click for preview](https://burakhan29.github.io/web-projects/wDevApp/ "Click for preview")
+### [Web Developer Site](https://github.com/brkunver/wDevApp)
+An example website for a web developer. Built with basic html and bootsrap 5 [Click for preview](https://brkunver.github.io/wDevApp/)
 
-### Vet Clinic site
-A simple one page web site about vet clinic. Built with basic html and css [Click for preview](https://burakhan29.github.io/web-projects/vet-clinic/ "Click for preview")
+### [Vet Clinic site](https://github.com/brkunver/vet-clinic)
+A simple one page web site about vet clinic. Built with basic html and css [Click for preview](https://brkunver.github.io/vet-clinic/)
 
 ### [Basic Personel site](https://github.com/brkunver/basic-personel)
 A personel site that built with basic html and css [Click for preview](https://brkunver.github.io/basic-personel/)
