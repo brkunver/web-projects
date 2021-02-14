@@ -4,6 +4,9 @@
 
 ## Content
 
+### [Simple blog](https://github.com/brkunver/Simple-blog)
+A simple Journal website that you can add new posts and read them. Built with Ejs and Express.js
+
 ### [Eva-Calc](https://github.com/brkunver/evaCalc) 
 An example website for math calculations. Built with jQuery and bootsrap 5 [Click for preview](https://brkunver.github.io/evaCalc/)
 
