@@ -3,6 +3,13 @@
 - My goal is to learn new things about web development, and improve my skills
 
 ## Content
+### [React Jokes App](https://github.com/brkunver/jokes-react-app)
+
+A React app that can show jokes with changeable theme.
+
+- [Live Demo](https://glowing-seahorse-4e1629.netlify.app/)
+
+
 ### [React Math Calculator](https://github.com/brkunver/React-Math-Calculator)
 
 A React app that can calculate some values like Hypotenuse or Area of a circle
