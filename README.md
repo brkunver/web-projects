@@ -3,6 +3,18 @@
 - My goal is to learn new things about web development, and improve my skills
 
 ## Content
+
+### [MYSQL Express Blog App](https://github.com/brkunver/express-mysql-blog/)
+
+Express blog app with mysql database
+
+This app gets title and content of blog posts and show preview in home page, and you can click detail and read more.
+
+I use Bootstrap, Mysql, Sequelize, Express and Ejs Libraries in this project
+
+- Live demo : https://serene-ravine-65395.herokuapp.com/
+
+
 ### [React Jokes App](https://github.com/brkunver/jokes-react-app)
 
 A React app that can show jokes with changeable theme.
