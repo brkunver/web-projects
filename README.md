@@ -4,15 +4,17 @@
 
 ## Content
 
-### [MYSQL Express Blog App](https://github.com/brkunver/express-mysql-blog/)
+### [POSTGRES Express Blog App](https://github.com/brkunver/express-postgres-blog)
 
-Express blog app with mysql database
+Express blog app with heroku postgres database
 
 This app gets title and content of blog posts and show preview in home page, and you can click detail and read more.
 
-I use Bootstrap, Mysql, Sequelize, Express and Ejs Libraries in this project
+I use Bootstrap, Postgres, Sequelize, Express and Ejs Libraries in this project
 
-- Live demo : https://serene-ravine-65395.herokuapp.com/
+- Note : I was using a free mysql database when I first created this project. It created some problems then I switched to Heroku Postgresql database
+
+- Live demo : [https://serene-ravine-65395.herokuapp.com/](https://serene-ravine-65395.herokuapp.com/)
 
 
 ### [React Jokes App](https://github.com/brkunver/jokes-react-app)
