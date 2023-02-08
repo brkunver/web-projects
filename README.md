@@ -4,13 +4,24 @@
 
 ## Content
 
+### [Todolist API](https://github.com/brkunver/todolist-api)
+
+Express todolist api with mongodb database
+
+You can login add todo to database with API
+
+I used Express, MongoDB, JWT in this app.
+
+- Live demo : [https://todolist-api.up.railway.app/](https://todolist-api.up.railway.app/)
+
+
 ### [POSTGRES Express Blog App](https://github.com/brkunver/express-postgres-blog)
 
 Express blog app with heroku postgres database
 
 This app gets title and content of blog posts and show preview in home page, and you can click detail and read more.
 
-I use Bootstrap, Postgres, Sequelize, Express and Ejs Libraries in this project
+I used Bootstrap, Postgres, Sequelize, Express and Ejs Libraries in this project
 
 - Note : I was using a free mysql database when I first created this project. It created some problems then I switched to Heroku Postgresql database
 - ~~Live demo : [https://serene-ravine-65395.herokuapp.com/](https://serene-ravine-65395.herokuapp.com/)~~
